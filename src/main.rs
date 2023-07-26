@@ -50,7 +50,7 @@ fn main(){
         println!("failed to open handle {:?}", unsafe{ GetLastError()})
     }
     println!("Open handle to first process: {:?}", open_handle_to_first);
-
+    //change it to yours
     let path_to_dll = "C:\\Users\\Administrator\\Desktop\\code\\messagebox_payload\\target\\debug\\rust_dll_demo.dll\0";
     let path_dll_size = path_to_dll.len();
     let allocated_res = unsafe {
