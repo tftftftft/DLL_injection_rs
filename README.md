@@ -1,5 +1,5 @@
 # DLL_injection_rs
-Dead simple dll inj written in rust
+dll inj written in rust
 
 To build:
 cargo build --release
